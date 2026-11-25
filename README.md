@@ -20,8 +20,8 @@ Select a classifier that identifies disease-positive cases while balancing:
 
 - False negatives: positive cases that the model misses
 - False positives: negative cases incorrectly labeled positive
-- Precision: reliability of positive predictions
-- Specificity: ability to identify negative cases
+- Precision: Reliability of positive predictions
+- Specificity: Ability to identify negative cases
 - F1: balance between precision and recall
 
 Recall is particularly important because missed clinical cases can delay diagnosis or treatment.
@@ -83,6 +83,7 @@ This corresponds to:
 - Specificity: 71.00%
 - F1: approximately 65.04%
 
+
 ## Saved Artifact
 
 [best_clinical_disease_predictor.joblib](best_clinical_disease_predictor.joblib) stores the serialized predictor pipeline.
@@ -116,3 +117,4 @@ The input schema must match the features used during training. Install `imblearn
 ## Safety
 
 This project is a machine-learning experiment, not a medical diagnosis system. It must not be used as a replacement for qualified clinical judgment.
+
