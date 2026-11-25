@@ -1,0 +1,7 @@
+Model,Mean CV Recall,Std CV Recall,Best Parameters
+SVM + class weights,0.775858250276855,0.0338921094367904,"{'classifier__C': 0.5, 'classifier__gamma': 'scale', 'classifier__kernel': 'rbf'}"
+XGBoost + SMOTE,0.7662236987818384,0.01670112294264348,"{'classifier__learning_rate': 0.03, 'classifier__max_depth': 2, 'classifier__n_estimators': 150, 'classifier__subsample': 1.0}"
+Random Forest + SMOTE,0.7616832779623477,0.030764749444825656,"{'classifier__max_depth': 6, 'classifier__max_features': 'sqrt', 'classifier__min_samples_leaf': 1, 'classifier__n_estimators': 400}"
+XGBoost + class weighting,0.756810631229236,0.0391632213376515,"{'classifier__learning_rate': 0.03, 'classifier__max_depth': 2, 'classifier__n_estimators': 150, 'classifier__subsample': 1.0}"
+SVM + SMOTE,0.7478405315614618,0.04420477708566086,"{'classifier__C': 0.5, 'classifier__gamma': 0.1, 'classifier__kernel': 'rbf'}"
+Random Forest + class weights,0.7335548172757476,0.013188992186896484,"{'classifier__max_depth': 6, 'classifier__max_features': 'sqrt', 'classifier__min_samples_leaf': 3, 'classifier__n_estimators': 200}"
